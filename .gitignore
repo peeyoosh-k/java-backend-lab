@@ -1,0 +1,11 @@
+*.class
+*.jar
+target/
+build/
+out/
+.idea/
+*.iml
+.vscode/
+.gradle/
+.DS_Store
+.env
