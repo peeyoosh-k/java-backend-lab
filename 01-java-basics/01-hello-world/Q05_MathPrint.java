@@ -6,15 +6,18 @@
 
 public class Q05_MathPrint {
     public static void main(String[] args) {
-        int add = 10 + 5;
-        int sub = 10 - 5;
-        int mul = 10 * 5;
-        int div = 10 / 5;
+        int a = 10;
+        int b = 3;
 
-        System.out.println("10 + 5 = " + add);
-        System.out.println("10 - 5 = " + sub);
-        System.out.println("10 * 5 = " + mul);
-        System.out.println("10 / 5 = " + div);
+        int sum = a + b;
+        int difference = a - b;
+        int product = a * b;
+        double quotient = a / b;
+
+        System.out.println(a + " + " + b + " = " + sum);
+        System.out.println(a + " - " + b + " = " + difference);
+        System.out.println(a + " * " + " = " + product);
+        System.out.println(a + " / " + b + " = " + quotient);
     }
 }
 

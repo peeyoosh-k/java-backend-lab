@@ -8,12 +8,12 @@ public class Q04_Values {
     public static void main(String[] args) {
         int num = 10;
         double dec = 3.14;
-        boolean isTrue = true;
+        boolean isActive = true;
         char ch = 'A';
 
         System.out.println(num);
         System.out.println(dec);
-        System.out.println(isTrue);
+        System.out.println(isActive);
         System.out.println(ch);
     }
 }
